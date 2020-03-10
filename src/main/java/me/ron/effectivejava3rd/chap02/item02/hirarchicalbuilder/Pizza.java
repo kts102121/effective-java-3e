@@ -25,6 +25,9 @@ public abstract class Pizza {
     }
 
     Pizza(Builder<?> builder) {
+        // toppings = builder.toppings.clone();
+
+        // Making the toppings list as immutable prevents adding toppings
         toppings = Collections.unmodifiableSet(builder.toppings);
     }
 }

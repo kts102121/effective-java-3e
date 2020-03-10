@@ -19,5 +19,4 @@ public class SpellChecker {
 }
 
 interface Lexicon {}
-
 class KoreanDictionary implements Lexicon {}

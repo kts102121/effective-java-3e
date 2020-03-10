@@ -56,6 +56,7 @@ public class NutritionFacts {
          * @return {@code NutritionFacts}
          */
         public NutritionFacts build() {
+            // Validation comes in build() method
             if (calories < 0) {
                 throw new IllegalArgumentException("Calories should be greater than 0");
             }

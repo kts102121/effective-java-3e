@@ -32,7 +32,9 @@ public class NutritionFacts {
         this.sodium = sodium;
         this.carbohydrate = carbohydrate;
     }
+}
 
+class Main {
     public static void main(String[] args) {
         // Without the help of IDE, what do parameters mean?
         NutritionFacts nutritionFacts = new NutritionFacts(240, 8, 100, 0, 35, 27);

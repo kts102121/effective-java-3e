@@ -7,7 +7,7 @@ public class Elvis {
     public static final Elvis INSTANCE = new Elvis();
 
     /**
-     * A priviledged cleint can invoke the private constructor reflectively with the aid of the
+     * A privileged client can invoke the private constructor reflectively with the aid of the
      * AccessibleObject.setAccessible method, If you need to defend this, modify the constructor.
      */
     private Elvis() {

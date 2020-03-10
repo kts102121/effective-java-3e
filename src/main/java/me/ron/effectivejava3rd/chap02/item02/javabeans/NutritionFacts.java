@@ -8,9 +8,7 @@ public class NutritionFacts {
     private int sodium       = 0;
     private int carbohydrate = 0;
 
-    public NutritionFacts() {
-
-    }
+    public NutritionFacts() { }
 
     public void setServingSize(int servingSize) {
         this.servingSize = servingSize;
@@ -36,6 +34,9 @@ public class NutritionFacts {
         this.carbohydrate = carbohydrate;
     }
 
+}
+
+class Main {
     public static void main(String[] args) {
         // In order to create one object, we need to call multiple setters
         // This will make the object inconsistent until the object is completed
